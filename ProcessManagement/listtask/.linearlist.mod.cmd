@@ -1,0 +1,1 @@
+cmd_/home/ns/OSConcepts/ProcessManagement/listtask/linearlist.mod := printf '%s\n'   linearlist.o | awk '!x[$$0]++ { print("/home/ns/OSConcepts/ProcessManagement/listtask/"$$0) }' > /home/ns/OSConcepts/ProcessManagement/listtask/linearlist.mod

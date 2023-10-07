@@ -1,0 +1,1 @@
+cmd_/home/ns/OSConcepts/KernelModules101/seconds.mod := printf '%s\n'   seconds.o | awk '!x[$$0]++ { print("/home/ns/OSConcepts/KernelModules101/"$$0) }' > /home/ns/OSConcepts/KernelModules101/seconds.mod

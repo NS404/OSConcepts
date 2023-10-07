@@ -1,0 +1,1 @@
+cmd_/home/ns/OSConcepts/ProcessManagement/kernelDS/collatz.mod := printf '%s\n'   collatz.o | awk '!x[$$0]++ { print("/home/ns/OSConcepts/ProcessManagement/kernelDS/"$$0) }' > /home/ns/OSConcepts/ProcessManagement/kernelDS/collatz.mod

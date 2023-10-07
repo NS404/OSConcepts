@@ -1,0 +1,1 @@
+cmd_/home/ns/OSConcepts/ProcessManagement/listtask/dfslist.mod := printf '%s\n'   dfslist.o | awk '!x[$$0]++ { print("/home/ns/OSConcepts/ProcessManagement/listtask/"$$0) }' > /home/ns/OSConcepts/ProcessManagement/listtask/dfslist.mod

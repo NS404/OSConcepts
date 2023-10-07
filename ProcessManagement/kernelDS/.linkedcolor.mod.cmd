@@ -1,0 +1,1 @@
+cmd_/home/ns/OSConcepts/ProcessManagement/kernelDS/linkedcolor.mod := printf '%s\n'   linkedcolor.o | awk '!x[$$0]++ { print("/home/ns/OSConcepts/ProcessManagement/kernelDS/"$$0) }' > /home/ns/OSConcepts/ProcessManagement/kernelDS/linkedcolor.mod

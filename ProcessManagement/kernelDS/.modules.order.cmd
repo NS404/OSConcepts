@@ -1,0 +1,1 @@
+cmd_/home/ns/OSConcepts/ProcessManagement/kernelDS/modules.order := {   echo /home/ns/OSConcepts/ProcessManagement/kernelDS/collatz.ko; :; } > /home/ns/OSConcepts/ProcessManagement/kernelDS/modules.order

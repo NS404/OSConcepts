@@ -1,0 +1,1 @@
+cmd_/home/ns/OSConcepts/ProcessManagement/listtask/Module.symvers :=  sed 's/ko$$/o/'  /home/ns/OSConcepts/ProcessManagement/listtask/modules.order | scripts/mod/modpost -m     -o /home/ns/OSConcepts/ProcessManagement/listtask/Module.symvers -e -i Module.symvers -T - 

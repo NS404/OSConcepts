@@ -1,0 +1,1 @@
+cmd_/home/ns/OSConcepts/ProcessManagement/taskinfo/taskinfo.mod := printf '%s\n'   taskinfo.o | awk '!x[$$0]++ { print("/home/ns/OSConcepts/ProcessManagement/taskinfo/"$$0) }' > /home/ns/OSConcepts/ProcessManagement/taskinfo/taskinfo.mod

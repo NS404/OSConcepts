@@ -1,0 +1,1 @@
+cmd_/home/ns/OSConcepts/KernelModules101/jiffies.mod := printf '%s\n'   jiffies.o | awk '!x[$$0]++ { print("/home/ns/OSConcepts/KernelModules101/"$$0) }' > /home/ns/OSConcepts/KernelModules101/jiffies.mod
